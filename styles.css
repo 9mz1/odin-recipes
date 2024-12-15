@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* bg color: #d6d5b7  */
+/* primary color: #d28314  */
+/* secondary: #272526 */
+/* tertiary: #eee7d5 */
+/* arabic font: 'Lateef', sans-serif fntweight: 200-800 */
+/* english font: 'Raleway', sans-serif fntweight: 100-900 */
+
+
+* {
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6d5b7;
+    /* outline: 2px red solid; */
+}
+
+.arabic {
+    font-family: 'Lateef', sans-serif;
+    /* outline: 2px purple solid; */
+}
+
+
+#title {
+    font-size: 80px;
+    font-weight: 800;
+    color: #d28314;
+    text-align: center;
+}
+
+
+.links {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.links div {
+    display: inline-block;
+    align-items: center;
+    margin: 0px 20px 50px 20px;
+    padding: 80px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    background-color: #dccfac;
+}
+
+.text {
+    background-color: #dccfac;
+}
+
+.arabic.text {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.links div a {
+    display: block;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: #272526;
+}
+
+.links div a:hover {
+    transform: scale(1.1);
+}
+
+.links img {
+    border-radius: 5px;
+}
