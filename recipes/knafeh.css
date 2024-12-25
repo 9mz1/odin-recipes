@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 20px 8px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6d5b7;
+    color: #272526;
+    font-family: 'Raleway', sans-serif;
+    /* outline: 2px red solid; */
+}
+
+.arabic {
+    font-family: 'Lateef', sans-serif;
+    color: #d28314;
+    /* outline: 2px purple solid; */
+}
+
+a {
+    text-decoration: none;
+}
+
+li::marker {
+    color: #d28314;
+}
+
+
+.content {
+    display: flex;
+}
+
+.left .header{
+    margin-bottom: 80px;
+}
+
+.left .header h1 {
+    font-family: 'Lateef', sans-serif;
+    color: #d28314;
+    font-size: 70px;
+    margin-bottom: -30px;
+}
+
+.left .header p {
+    font-size: 18px;
+}
+
+.left .steps h2 {
+    font-family: 'Lateef', sans-serif;
+    color: #d28314;
+    font-size: 55px;
+}
+
+.left .steps li {
+    font-size: 18px;
+}
+
+.right img {
+    width: 400px;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+
+.right .ingredients h2 {
+    font-family: 'Lateef', sans-serif;
+    color: #d28314;
+    font-size: 55px;
+}
+
+.right .ingredients li {
+    font-size: 18px;
+}
+
+#back {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px 40px;
+    border-radius: 25px;
+    color: #e0dfbf;
+    background-color: #d28314;
+    transition: 0.7s ease;
+}
+
+#back:hover {
+    border-radius: 30px;
+    color: #d28314;
+    background-color: #e0dfbf;
+
+}
