@@ -16,6 +16,13 @@
     /* outline: 2px red solid; */
 }
 
+a {
+    color: #272526;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .arabic {
     font-family: 'Lateef', sans-serif;
     /* outline: 2px purple solid; */
@@ -31,44 +38,45 @@
 
 
 .links {
-    margin-top: 80px;
-    text-align: center;
-}
-
-.links div {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px 20px 50px 20px;
-    padding: 80px 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 20px;
-    background-color: #dccfac;
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
 
-.text {
-    background-color: #dccfac;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    background-color: #e0dfbf;
+    padding: 45px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.7s ease;
 }
 
-.arabic.text {
-    font-size: 30px;
-    font-weight: 300;
+.card:hover {
+    transform: scale(1.02);
 }
 
-.links div a {
-    display: block;
-    margin-top: 20px;
+.card p {
+    color: #272526;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    text-align: center;
-    color: #272526;
+    background-color: #e0dfbf;
 }
 
-.links div a:hover {
-    transform: scale(1.1);
+.card .text {
+    background-color: #e0dfbf;
 }
 
-.links img {
-    border-radius: 5px;
+.card img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover; 
+    border-radius: 4px;
 }
