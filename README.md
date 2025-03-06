@@ -1,4 +1,4 @@
-# odin-recipes
+# Odin-Recipes
 Arabic Recipe Webpage
 https://9mz1.github.io/odin-recipes/
 
